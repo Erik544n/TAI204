@@ -109,7 +109,6 @@ async def actualizar_usuario(id:int, usuario_actualizado:dict):
             usr["nombre"] = usuario_actualizado.get("nombre", usr["nombre"])
             usr["edad"] = usuario_actualizado.get("edad", usr["edad"])
 
-
             return{
                 "mensaje":"Usuario actualizado",
                 "usuario":usr,
@@ -127,8 +126,6 @@ async def eliminar_usuario(id:int):
                 "mesaje":"Usuario eliminado",
                 "usuario":usr,
                 "status":200
-
             }
-
 
 
