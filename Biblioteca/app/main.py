@@ -2,6 +2,7 @@ from fastapi import FastAPI, status, HTTPException
 from typing import Optional, Literal
 from pydantic import BaseModel, Field, field_validator
 
+
 app = FastAPI()
 
 #################
