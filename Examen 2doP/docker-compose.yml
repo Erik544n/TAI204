@@ -1,0 +1,10 @@
+services:
+  api:
+    build: .
+    container_name: servidor_fasAPI_Examen
+    ports:
+      - "5030:5030"
+    volumes:
+      - ./app:/app/app
+
+      
